@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class A1P1 {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your credits");
+        int credits = sc.nextInt();
+        if(credits>=7500)
+        System.out.println("Tera leader");
+        else if(credits<7500 && credits>=6000)
+        System.out.println("Gega leader");
+        else if(credits<6000 && credits>=4500)
+        System.out.println("Mega leader");
+        else
+        System.out.println("Rising Star");
+
+    }
+    
+}
