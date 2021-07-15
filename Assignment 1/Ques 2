@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class A1P2 {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the amount");
+        double principal = sc.nextDouble();
+        System.out.println("enter the time");
+        double time = sc.nextDouble();
+        System.out.println("enter the rate");
+        double rate = sc.nextDouble();
+        double SimpleInterest = (principal*rate*time)/100.0;
+        System.out.println(SimpleInterest + "%");
+    }
+}
